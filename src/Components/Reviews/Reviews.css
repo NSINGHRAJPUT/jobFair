@@ -1,0 +1,26 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0%;
+}
+.reviews .user-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+}
+.user-reviews .quote{
+    border: 2px solid darkred;
+    margin: 1%;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    border-radius: 5px;
+}
+.reviews h2{
+    color: darkred;
+}

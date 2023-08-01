@@ -1,0 +1,22 @@
+.feature{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.feature .feature-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid darkred;
+    margin: 1% 0%;
+}
+.feature-details div{
+    padding: 4%;
+}
+
+.feature-details div h5{
+    color: darkred;
+}

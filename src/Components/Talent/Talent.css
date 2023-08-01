@@ -1,0 +1,47 @@
+.talent{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.got-talent, .need-talent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 85vh;
+    padding-top: 2%;
+}
+.got-talent .description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;
+}
+.got-talent .description div{
+    padding-top: 2%;
+}
+.got-talent .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.need-talent .description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30vw;
+}
+.need-talent .description div{
+    padding-top: 2%;
+}
+.need-talent .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description h2{
+    color: darkred;
+}

@@ -1,0 +1,13 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about h1 span{
+  color: darkred;
+}
+hr{
+  height: 4px;
+  width: 100%;
+  background-color: rgb(200, 9, 9);
+}
